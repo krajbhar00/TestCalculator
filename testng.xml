@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Calculator Test Suite">
+    <test name="Calculator Operations">
+        <parameter name="baseUrl" value="https://nuix.github.io/SDET/senior-sdet/productionCalc/index.html"></parameter>
+        <classes>
+            <class name="com.calculator.tests.Tests.CalculatorOperationsTest"/>
+        </classes>
+    </test>
+</suite>
